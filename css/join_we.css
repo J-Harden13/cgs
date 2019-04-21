@@ -1,0 +1,88 @@
+.header{background: rgba(255, 255, 255, .5)}
+.banner{width: 100%;}
+.banner img{width: 100%;}
+/* 菜单导航 */
+.menu_nav{background: #f8fff7;}
+.menu_nav ul{overflow: hidden;}
+.menu_nav ul li{float: left;width: 16.6%;}
+.menu_nav ul li a{font-size: 0.18rem;color:#666;display: block;padding:0.25rem;text-align: center;}
+.menu_nav ul .active{border-bottom: 0.05rem solid #009140;}
+/* 加入我们 */
+.join_we{padding: 0.6rem 0 0.5rem;}
+.join_we h2{font-size: 0.36rem;color: #333;margin-bottom: 0.3rem;text-align: center;}
+.join_we .container>p{font-size: 0.2rem;color: #333;text-align: center;}
+.join_we .wrap{margin-top: 0.6rem;overflow: hidden;}
+.join_we .wrap .left{float: left;width: 7.02rem;height: 4rem;}
+.join_we .wrap .left img{width: 7.02rem;height: 4rem;}
+.join_we .wrap .right{float: left;width: 4.98rem;}
+.join_we .wrap .right .img{width: 1.99rem;height: 1.75rem;text-align: center;margin: 0.2rem auto 0;}
+.join_we .wrap .right ul{margin: 0.5rem 0 0 0.8rem;}
+.join_we .wrap .right ul li::before{content: "";width: 0.05rem;height: 0.05rem;display: inline-block;background: #009140;vertical-align: middle;margin-right: 0.1rem;}
+.join_we .wrap .right ul li{margin-top:0.2rem;font-size: 0.16rem;color: #666;}
+/* 公司福利 */
+.welfare{background: #fdfdfd;}
+.welfare h3{font-size: 0.2rem;color: #009140;margin-bottom: 0.6rem;margin-top: 0.3rem;}
+.welfare h3::before{content: "";width: 0.03rem;height: 0.3rem;display: inline-block;background: #009140;margin-right: 0.1rem;vertical-align: middle;}
+.welfare ul li{float: left;width: 25%;text-align: center;margin-bottom: 0.6rem;}
+.welfare ul li .img{width: 0.49rem;height: 0.36rem;margin: 0 auto;}
+.welfare ul li .img img{width: 0.49rem;height: 0.36rem;}
+.welfare ul li p{margin: 0.2rem;font-size:0.16rem;color: #666;}
+/* 招聘 */
+.recruit{margin-bottom: 0.6rem;}
+.recruit .top h5{font-size: 0.2rem;color:#009140;margin-top: 0.3rem;margin-bottom: 0.3rem;}
+.recruit .top h5::before{content: "";width: 0.03rem;height: 0.3rem;display: inline-block;background: #009140;margin-right: 0.1rem;vertical-align: middle;}
+.recruit .top p{font-size: 0.16rem;color: #666;margin-bottom:0.2rem;}
+.recruit .middle{padding: 0 2.2rem 0.5rem 0rem;margin-top: 0.3rem;}
+.recruit .middle ul li{box-sizing: border-box;}
+.recruit .middle ul li h4{padding: 0.2rem 0;border-bottom: 0.01rem solid #ccc;box-sizing: border-box;font-size: 0.16rem;color: #666;position: relative;}
+.recruit .middle h4 span{position: absolute;right: 0.3rem;top: 0.15rem;font-size: 0.27rem;color: #999;width: 0.25rem;height: 0.25rem;text-align: center;line-height: 0.25rem;}
+.recruit .middle h5{font-size: 0.2rem;color: #333;padding-top: 0.3rem;}
+.recruit .middle h6{margin-bottom: 0.3rem;margin-top:0.2rem;font-size: 0.18rem;color: #333;}
+.recruit .middle p{font-size: 0.16rem;color: #666;line-height: 2.5;}
+.recruit .middle .email{padding-bottom: 0.5rem;margin-top: 0.4rem;border-bottom: 0.01rem solid #ccc;}
+.email span{color: #009140;}
+.content{display: none;}
+/* .recruit .middle{padding: 0 2.2rem 0.5rem 0.3rem;}
+.recruit .middle .btm_p01{padding-bottom: 0.2rem;border-bottom: 0.01rem solid #ccc;position: relative;}
+.recruit .middle .btm_p01 span{position: absolute;right: 0.3rem;top:-0.15rem;}
+.recruit .middle h5{font-size: 0.2rem;color: #333;padding-top: 0.3rem;}
+.recruit .middle h6{margin-bottom: 0.3rem;margin-top:0.2rem;font-size: 0.18rem;color: #333;}
+.recruit .middle p{font-size: 0.16rem;color: #666;line-height: 2.5;}
+.recruit .middle .email{margin-bottom: 0.3rem;margin-top: 0.4rem;}
+.email span{color: #009140;}
+.btm_p02{padding: 0.2rem 0;border-bottom: 0.01rem solid #ccc;position: relative;}
+.btm_p03{padding: 0.2rem 0;border-bottom: 0.01rem solid #ccc;position: relative;}
+.btm_p04{padding: 0.2rem 0;border-bottom: 0.01rem solid #ccc;position: relative;}
+.recruit p>span{position: absolute;right: 0.3rem;top:10%;font-size: 0.27rem;color: #999;} */
+
+@media(max-width: 767px){
+	html{font-size: 350%;}
+	.container{
+		width: 100%;
+		padding: 0 0.3rem;
+		margin: 0 auto;
+		box-sizing: border-box;
+	}
+	.pc{
+		display: none;
+	}
+	.mobile{
+		display: block;
+    }
+    /* 加入我们 */
+    .join_we .wrap .left img{width: 6.9rem;height: 4rem;}
+    .join_we .wrap .right ul{margin: 0.5rem 0 0;}
+    .join_we .wrap .right ul li{font-size: 0.22rem;}
+    /* 公司福利 */
+    .welfare h3{font-size: 0.3rem;}
+    .welfare ul li p{font-size: 0.22rem;}
+    /* 招聘 */
+    .recruit .top h5{font-size: 0.3rem;}
+    .recruit .top p{font-size: 0.22rem;}
+    .recruit .middle ul li h4{font-size: 0.22rem;}
+    .recruit .middle ul li{width:100%;}
+    .recruit .middle{padding: 0;}
+    .recruit .content p{font-size: 0.2rem;}
+    .recruit .content h5{font-size: 0.2rem;}
+    .recruit .content h6{font-size: 0.2rem;}
+}

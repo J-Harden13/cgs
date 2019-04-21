@@ -1,0 +1,61 @@
+.header{background: rgba(255, 255, 255, .5);}
+.banner{width: 100%;}
+.banner img{width: 100%;}
+/* 菜单导航 */
+.menu_nav{background: #f8fff7;}
+.menu_nav ul{overflow: hidden;}
+.menu_nav ul li{float: left;width: 16.6%;}
+.menu_nav ul li a{font-size: 0.18rem;color:#666;display: block;padding:0.25rem;text-align: center;}
+.menu_nav ul .active{border-bottom: 0.05rem solid #009140;}
+/* 创始团队 */
+.team{padding: 0.6rem 0;font-size: 0.16rem;color: #666;line-height: 2;}
+.team h2{font-size: 0.36rem;color: #333;margin-bottom: 0.3rem;text-align: center;}
+.team .container>p{font-size: 0.2rem;color: #333;text-align: center;}
+.team .top{overflow: hidden;margin-top: 0.6rem;}
+.team .top .right{float: left;}
+.team .top .img{float: left;margin-right: 0.7rem;}
+.team h4{font-size: 0.26rem;color: #009140;margin-top: 0.3rem;font-weight: bold;}
+.team .position{font-size: 0.16rem;color: #333;padding: 0.2rem 0;border-bottom: 0.01rem solid #009140;margin-bottom: 0.3rem;}
+.team01{padding: 0.6rem 0;font-size: 0.16rem;color: #666;line-height: 2;background: #f7fffb;}
+.team01 h4{font-size: 0.26rem;color: #009140;margin-top: 0.3rem;font-weight: bold;}
+.team01 .position{font-size: 0.16rem;color: #333;padding: 0.2rem 0;border-bottom: 0.01rem solid #009140;margin-bottom: 0.3rem;}
+.team01 .bottom{overflow: hidden;}
+.team01 .bottom .img{float: right;width: 2.68rem;height: 3.6rem;margin-left: 0.7rem;}
+.team01 .bottom .left{float: left;text-align: right;width: 8.02rem;}
+.team .top .img img{width: 2.68rem;height: 3.6rem;}
+.team01 .bottom .img img{width: 2.68rem;height: 3.6rem;}
+@media(max-width: 767px){
+	html{font-size: 350%;}
+	.container{
+		width: 100%;
+		padding: 0 0.3rem;
+		margin: 0 auto;
+		box-sizing: border-box;
+	}
+	.pc{
+		display: none;
+	}
+	.mobile{
+		display: block;
+    }
+    .header{background: none;}
+    .banner{width: 100%;}
+    .banner img{width: 100%;}
+    /* 创始团队 */
+    .team{margin-bottom: 0;}
+    .team .top{margin-top: 0.5rem;}
+    .team .top .img{margin-right: 10%;width: 35%;padding-top: 0.2rem;}
+    .team .top .img img{width: 2.68rem;height: 4.48rem;}
+    .team .top .right{width:55%;padding: 0;}
+    .team .top .right .position{padding: 0.2rem 0;}
+    .team .top .right h4{margin-top: 0;}
+    .team01{padding: 0;}
+    .team01 .bottom .img{float: right;width: 2.68rem;height: 4rem;margin-left: 5%;width: 35%;}
+    .team01 .bottom .left{float: left;text-align: left;width: 8.02rem;width:60%;}
+    .team h4{font-size: 0.3rem;}
+    .team .position{font-size: 0.28rem;}
+    .team p{font-size: 0.2rem;line-height: 1.5;}
+    .team01 h4{font-size: 0.3rem;}
+    .team01 .position{font-size: 0.28rem;}
+    .team01 p{font-size: 0.2rem;line-height: 1.5;}
+}

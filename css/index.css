@@ -1,0 +1,42 @@
+/* 轮播 */
+.banner{width: 100%;}
+.banner img{width:100%;}
+.banner .carousel-indicators li{width:0.22rem;height: 0.22rem;margin:0 0.2rem;border-color: #5eba87;border-radius: 50%;}
+.banner .carousel-indicators .active{background: #31a766;}
+/* 业务 */
+.business{width: 100%;padding:0.5rem 0;}
+.business h2{text-align: center;font-size:0.36rem;color:#333;}
+.business .container>p{text-align: center;font-size: 0.2rem;color:#333;margin: 0.25rem 0 0.55rem;}
+.business ul{overflow: hidden;}
+.business ul li{float: left;width:33.3%;display: flex;justify-content: center;}
+.business ul li a img{width: 0.76rem;height: 0.73rem;display: block;margin: 0 auto;}
+.business ul li a h5{text-align: center;font-size: 0.2rem;color:#333;margin: 0.3rem 0;}
+.business ul li a p{text-align: center;font-size: 0.16rem;color:#666;}
+/* 优势 */
+.advantage{width: 100%;padding: 0.6rem 0;background: #fcfcfc;}
+.advantage h2{text-align: center;font-size:0.36rem;color:#333;margin: 0.5rem;}
+.advantage img{width: 5.94rem;height: 4.73rem;display: block;margin: 0 auto;}
+/* 合作伙伴 */
+.Partner{padding: 0.6rem 0 0.3rem;width:100%;}
+.Partner h2{text-align: center;font-size:0.36rem;color:#333;margin-bottom: 0.2rem;}
+.Partner .container img{width: 100%;display: block;}
+@media(max-width: 767px){
+	html{font-size: 350%;}
+	.container{
+		width: 100%;
+		padding: 0 0.3rem;
+		margin: 0 auto;
+		box-sizing: border-box;
+	}
+	.pc{
+		display: none;
+	}
+	.mobile{
+		display: block;
+    }
+    .banner .img img{width: 7.5rem;height: 3.2rem;}
+    /* 业务板块 */
+		.business .container>p{font-size: 0.24rem;}
+		.business ul li a h5{font-size: 0.3rem;}
+		.business ul li a p{font-size: 0.22rem;}
+}

@@ -1,0 +1,44 @@
+.mt70{margin-top: 0;}
+.header{background: rgba(255, 255, 255, .5);}
+.banner{width: 100%;}
+.banner img{width: 100%;}
+/* 菜单导航 */
+.menu_nav ul{overflow: hidden;}
+.menu_nav ul li{float: left;width: 25%;}
+.menu_nav ul li a{background: #dcdcdc;padding: 0.2rem 1rem;font-size: 0.2rem;font-weight: bold;color:#565656;display: block;margin-right: 0.1rem;}
+.menu_nav ul li:last-child a{margin-right: 0;}
+/* 注册 */
+.register{margin:0.5rem 0 0.6rem;}
+.register .container{height:5.04rem;background: url(../images/bin_join_03.png) left top no-repeat;background-size:100% 100%;text-align: center;}
+.name{text-align: center;margin-top: 0.6rem;}
+.tel{text-align: center;margin-top: 0.3rem;margin-right: 0.15rem;}
+.area{text-align: center;margin-top: 0.3rem;margin-left: 0.1rem;position: relative;}
+.register a{margin-top: 0.4rem;padding: 0.2rem 1.2rem;display: inline-block;background: green;color: #fff;}
+.wrap{font-size: 0.16rem;color: #646464;}
+.wrap div i{color: red;}
+.wrap div input{width: 4.2rem;height: 0.5rem;margin-left: 0.1rem;}
+.area .top{width: 0;height: 0;border-right:0.07rem solid transparent;border-left:0.07rem solid transparent;border-top:0.1rem solid #000;position: absolute;left:68%;top:40%;display: block;}
+@media(max-width: 767px){
+	html{font-size: 350%;}
+	.container{
+		width: 100%;
+		padding: 0 0.3rem;
+		margin: 0 auto;
+		box-sizing: border-box;
+	}
+	.pc{
+		display: none;
+	}
+	.mobile{
+		display: block;
+    }
+    .mt70{margin-top: 1rem;}
+    .header{background: none;}
+    .banner{width: 100%;}
+    .banner img{width: 100%;}
+    /* 注册 */
+    .register{margin: 0;}
+    .wrap{font-size: 0.3rem;}
+    .area .top{left: 82%;}
+    .wrap div input{border: none;}
+}

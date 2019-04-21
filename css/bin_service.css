@@ -1,0 +1,120 @@
+.mt70{margin-top: 0;}
+.header{background: rgba(255, 255, 255, .5);}
+.banner{width: 100%;}
+.banner img{width: 100%;}
+/* 菜单导航 */
+.menu_nav ul{overflow: hidden;}
+.menu_nav ul li{float: left;width: 25%;}
+.menu_nav ul li a{background: #dcdcdc;padding: 0.2rem 1rem;font-size: 0.2rem;font-weight: bold;color:#565656;display: block;margin-right: 0.1rem;}
+.menu_nav ul li:last-child a{margin-right: 0;}
+/* 刚性需求 */
+.demand{padding: 0.4rem 0 0.8rem;}
+.demand h2{font-size: 0.32rem;color: #2ea261;text-align: center;margin-bottom: 0.3rem;font-weight: bold;}
+.demand h2:before{text-align: center;content: "";display: inline-block;width: 0.35rem;height: 0.35rem;border:0.02rem solid #ffdf06;background: #2ea261 url(../images/demand_03.png) center center no-repeat;background-size: 100%;vertical-align: middle;margin-right: 0.1rem;margin-bottom: 0.05rem;}
+.demand .container>p{font-size: 0.18rem;color:#2ea261;}
+.demand .container>p::after{content: "";width: 0;height: 0;border-right:0.07rem solid transparent;border-left:0.07rem solid transparent;border-top:0.1rem solid #2da462;display: inline-block;margin-left: 0.1rem;vertical-align: middle;}
+.demand ul{overflow: hidden;padding-top: 0.3rem;display: flex;justify-content: space-between;flex-wrap: wrap;}
+.demand ul li{flex: 0 0 18%;padding:0.2rem 0;text-align: center;margin-top: 0.2rem;border: 0.01rem solid #2da462;box-sizing: border-box;}
+/* 行业痛点 */
+.point{padding: 0.6rem 0;background:#f9f9f9;}
+.point h2{font-size: 0.32rem;color: #2ea261;text-align: center;margin-bottom: 0.6rem;font-weight: bold;}
+.point h2:before{text-align: center;content: "";display: inline-block;width: 0.35rem;height: 0.35rem;border:0.02rem solid #ffdf06;background: #2ea261 url(../images/point_03.png) center center no-repeat;vertical-align: middle;background-size:100%;margin-right: 0.1rem;margin-bottom: 0.05rem;}
+.point ul{overflow: hidden;}
+.point ul li{float: left;width: 25%;text-align: center;}
+.point ul li img{width: 0.93rem;height: 0.8rem;}
+.point ul li h5{font-size: 0.18rem;color:#333;font-weight: bold;margin-top: 0.3rem;}
+.point ul li p{font-size: 0.16rem;color: #666;margin-top: 0.3rem;padding: 0 0.3rem;text-align: left;}
+/* 解决方案 */
+/* .solve{padding: 0.6rem 0 0.15rem;}
+.solve h2{font-size: 0.32rem;color: #2ea261;text-align: center;margin-bottom: 0.2rem;font-weight: bold;}
+.solve h2:before{text-align: center;content: "";display: inline-block;width: 0.35rem;height: 0.35rem;border:0.02rem solid #ffdf06;background: #2ea261 url(../images/solve_03.png) center center no-repeat;vertical-align: middle;margin-right: 0.1rem;margin-bottom: 0.05rem;}
+.solve ul{overflow: hidden;}
+.solve ul li{float: left;width: 32%;margin-right: 3%;width: 3.7rem;margin-bottom: 0.35rem;}
+.solve ul li:last-child{margin-right: 0;}
+.solve ul li:nth-child(3){margin-right: 0;}
+.solve ul li img{width: 3.7rem;height: 1.21rem;}
+.solve ul li h5{font-size: 0.18rem;color:#4b4b4b;padding: 0.1rem 0;border-bottom: 0.01rem solid #2da462;}
+.solve ul li p{font-size:0.15rem;color:#6f6f6f;padding-top: 0.15rem;display: flex;align-items: stretch;} */
+.solve{padding: 0.6rem 0 0.15rem;}
+.solve h2{font-size: 0.32rem;color: #2ea261;text-align: center;margin-bottom: 0.2rem;font-weight: bold;}
+.solve h2:before{text-align: center;content: "";display: inline-block;width: 0.35rem;height: 0.35rem;border:0.02rem solid #ffdf06;background: #2ea261 url(../images/solve_03.png) center center no-repeat;background-size:100%;vertical-align: middle;margin-right: 0.1rem;margin-bottom: 0.05rem;}
+.solve ul{overflow: hidden;display: flex;justify-content: space-between;flex-wrap: wrap;align-items: stretch;}
+.solve ul li{margin-bottom: 0.35rem;width: 3.7rem;}
+.solve ul li img{width: 3.7rem;height: 1.21rem;}
+.solve ul li h5{font-size: 0.18rem;color:#4b4b4b;padding: 0.1rem 0;border-bottom: 0.02rem solid #2da462;}
+.solve ul li p{font-size:0.15rem;color:#6f6f6f;padding-top: 0.15rem;}
+/* 加盟优势 */
+.join_adv{padding: 0.5rem 0 0.8rem;background:#f9f9f9;}
+.join_adv h2{font-size: 0.32rem;color: #2ea261;text-align: center;margin-bottom: 0.3rem;font-weight: bold;}
+.join_adv h2:before{text-align: center;content: "";display: inline-block;width: 0.35rem;height: 0.35rem;border:0.02rem solid #ffdf06;background: #2ea261 url(../images/join_adv_04.png) center center no-repeat;background-size:100%;vertical-align: middle;margin-right: 0.1rem;margin-bottom: 0.05rem;}
+.join_adv ul{overflow: hidden;}
+.join_adv ul li{float: left;width: 50%;}
+.join_adv ul li .img{width: 1.4rem;height: 1.4rem;background: #2da462;border-radius: 50%;text-align: center;padding: 0.2rem;box-sizing: border-box;margin: 0 auto;}
+.join_adv ul li .img img{width: 0.56rem;height: 0.54rem;}
+.join_adv ul li .img p{margin-top: 0.1rem;font-size: 0.24rem;color:#fff;}
+.join_adv ul li>p{padding:0 0.8rem;margin-top: 0.2rem;text-align: center;}
+/* 盈利前景 */
+.profit{padding: 0.45rem 0 0.9rem;}
+.profit h2{font-size: 0.32rem;color: #2ea261;text-align: center;margin-bottom: 0.3rem;font-weight: bold;}
+.profit h2:before{text-align: center;content: "";display: inline-block;width: 0.35rem;height: 0.35rem;border:0.02rem solid #ffdf06;background: #2ea261 url(../images/profit_03.png) center center no-repeat;background-size:100%;vertical-align: middle;margin-right: 0.1rem;margin-bottom: 0.05rem;}
+.profit ul{overflow: hidden;}
+.profit ul li{float: left;width: 50%;}
+.profit ul li:last-child{text-align: right;}
+.profit ul li img{width: 5.83rem;height: 2.23rem;}
+/* 申请资质 */
+.apply{padding-bottom:0.9rem;}
+.apply h2{font-size: 0.32rem;color: #2ea261;text-align: center;margin-bottom: 0.3rem;font-weight: bold;}
+.apply h2:before{text-align: center;content: "";display: inline-block;width: 0.35rem;height: 0.35rem;border:0.02rem solid #ffdf06;background: #2ea261 url(../images/apply_04.png) center center no-repeat;background-size:100%;vertical-align: middle;margin-right: 0.1rem;margin-bottom: 0.05rem;}
+.apply ul{overflow: hidden;}
+.apply ul li{float: left;width: 32%;margin-right: 2%;}
+.apply ul li img{width: 3.7rem;height: 0.58rem;}
+.apply ul li:last-child{margin-right: 0;}
+
+@media(max-width: 767px){
+	html{font-size: 350%;}
+	.container{
+		width: 100%;
+		padding: 0 0.3rem;
+		margin: 0 auto;
+		box-sizing: border-box;
+	}
+	.pc{
+		display: none;
+	}
+	.mobile{
+		display: block;
+    }
+.mt70{margin-top: 1rem;}
+.header{background: none;}
+.banner{width: 100%;}
+.banner img{width: 100%;}
+/* 刚性需求 */
+.demand ul li{flex: 0 0 31%;font-size: 0.22rem;}
+.demand .container>p{font-size: 0.22rem;color:#666;}
+/* 行业痛点 */
+.point ul li{width: 50%;margin-bottom:0.5rem;}
+.point ul li:nth-child(3),.point ul li:nth-child(4){margin-bottom: 0;}
+.point ul li h5{font-size: 0.3rem;color:#333;font-weight: bold;margin-top: 0.2rem;}
+.point ul li p{font-size: 0.22rem;color: #666;margin-top: 0.25rem;padding: 0 0.3rem;text-align: left;padding: 0 0.7rem;}
+/* 解决方案 */
+.solve ul{padding: 0.6rem 0.15rem;}
+.solve ul li{width: 3.18rem;margin-bottom: 0.5rem;}
+.solve ul li:nth-child(5),.solve ul li:nth-child(6){margin-bottom: 0;}
+.solve ul li img{width: 3.18rem;height: 1.2rem;}
+.solve ul li h5{font-size: 0.3rem;color:#4b4b4b;padding: 0.3rem 0;border-bottom: 0.02rem solid #2da462;}
+.solve ul li p{font-size:0.22rem;color:#6f6f6f;padding-top: 0.3rem;}
+/* 加盟优势 */
+.join_adv{padding-bottom: 0.3rem;}
+.join_adv ul li .img{width:1.7rem;height: 1.7rem;}
+.join_adv ul li .img p{margin-top: 0.1rem;font-size: 0.3rem;color:#fff;}
+.join_adv ul li>p{padding:0 0.1rem;margin-top: 0.22rem;text-align: left;font-size: 0.22rem;}
+/* 盈利前景 */
+.solve ul{padding: 0.6rem 0;}
+.profit ul li{width:100%;margin-bottom: 0.6rem;}
+.profit ul li:first-child{text-align: center;}
+.profit ul li:last-child{text-align: center;margin-bottom: 0;}
+/* 申请资质 */
+.apply ul li{width: 100%;margin-right: 0;text-align: center;margin-bottom: 0.3rem;}
+.apply ul li img{width: 6.12rem;height: 0.72rem;}
+.apply ul li:last-child{margin-bottom: 0;}
+}

@@ -1,0 +1,130 @@
+.mt70{margin-top: 0;}
+.header{background: rgba(255, 255, 255, .5)}
+.banner{width: 100%;}
+.banner img{width: 100%;}
+/* 菜单导航 */
+.menu_nav ul{overflow: hidden;}
+.menu_nav ul li{float: left;width: 25%;}
+.menu_nav ul li a{background: #dcdcdc;padding: 0.2rem 1rem;font-size: 0.2rem;font-weight: bold;color:#565656;display: block;margin-right: 0.1rem;}
+.menu_nav ul li:last-child a{margin-right: 0;}
+/* 加盟优势 */
+.join_adv{padding: 0.5rem;}
+.join_adv h2{font-size: 0.32rem;color: #2ea261;text-align: center;margin-bottom: 0.6rem;font-weight: bold;}
+.join_adv h2:before{text-align: center;content: "";display: inline-block;width: 0.35rem;height: 0.35rem;border:0.02rem solid #ffdf06;background: #2ea261 url(../images/join_adv_03.png) center center no-repeat;background-size:100%;vertical-align: middle;margin-right: 0.1rem;margin-bottom: 0.05rem;}
+.join_adv ul{overflow: hidden;padding:0 0.3rem;display: flex;justify-content: space-between;}
+.join_adv ul li{text-align: center;}
+.join_adv ul li img{width: 1.53rem;height: 1.32rem;}        
+.join_adv ul li h3{width:1.7rem;height:1.45rem;font-size: 0.28rem;color: #fff;margin: 0 auto;text-align: center;line-height: 1.45rem;}
+/* .join_adv ul li:nth-child(1) h3{background: #2da462;}
+.join_adv ul li:nth-child(2) h3{background: #19a0cc;}
+.join_adv ul li:nth-child(3) h3{background: #0dcdcf;}
+.join_adv ul li:nth-child(4) h3{background: #d88ac0;}
+.join_adv ul li:nth-child(5) h3{background: #f6a479;} */
+.join_adv ul li p{width: 2.1rem;text-align: left;font-size: 0.16rem;color:#6f6f6f;margin-top: 0.25rem;}
+.join_adv ul li:hover img{transform: scale(1.1);-webkit-transform: scale(1.1);}
+/* 可控的经营成本 */
+.cost{background: #f5f5f5;padding:0.4rem 0 0.7rem;}
+.cost h2{font-size: 0.32rem;color: #2ea261;text-align: center;margin-bottom: 0.5rem;font-weight: bold;}
+.cost h2:before{text-align: center;content: "";display: inline-block;width: 0.35rem;height: 0.35rem;border:0.02rem solid #ffdf06;background: #2ea261 url(../images/cost_03.png) center center no-repeat;background-size: 100%;vertical-align: middle;margin-right: 0.1rem;margin-bottom: 0.05rem;}
+.cost ul{overflow: hidden;display: flex;justify-content: space-between;}
+.cost ul li{margin-right: 4%;padding: 0.3rem 0;}
+.cost ul li img{width: 5.75rem;height: 0.75rem;}
+/* 可靠的平台 */
+.platform{background: #f6f9fe;padding:0.5rem 0 0.6rem;}
+.platform h2{font-size: 0.32rem;color: #2ea261;text-align: center;margin-bottom: 0.5rem;font-weight: bold;}
+.platform h2:before{text-align: center;content: "";display: inline-block;width: 0.35rem;height: 0.35rem;border:0.02rem solid #ffdf06;background: #2ea261 url(../images/platform_03.png) center center no-repeat;background-size:100%;vertical-align: middle;margin-right: 0.1rem;margin-bottom: 0.05rem;}
+.platform ul{overflow: hidden;display: flex;justify-content: space-between;align-items: stretch;}
+.platform ul li{width:24%;text-align: center;background: #ebeadb;}
+.platform ul li span{margin: 0 auto;margin-top: 0.2rem;width: 0.82rem;height: 0.52rem;display: block;}
+.platform ul li:nth-of-type(1) span{background: url(../images/platform_09.png) center center no-repeat;background-size: 100%;}
+.platform ul li:nth-of-type(2) span{background: url(../images/platform_11.png) center center no-repeat;background-size: 100%;}
+.platform ul li:nth-of-type(3) span{background: url(../images/platform_13.png) center center no-repeat;background-size: 100%;}
+.platform ul li:nth-of-type(4) span{background: url(../images/platform_15.png) center center no-repeat;background-size: 100%;}
+.platform ul li:nth-of-type(1){background: #ebeadb;}
+.platform ul li:nth-of-type(2){background: #c4ceda;}
+.platform ul li:nth-of-type(3){background: #c4ceda;}
+.platform ul li:nth-of-type(4){background: #e0e0e0;}
+.platform ul li h4{margin-top: 0.3rem;font-size:0.24rem;color:#383838;}
+.platform ul li p{margin-top:0.15rem;font-size: 0.16rem;color:#545353;padding: 0 0.2rem 0.1rem;text-align: left;}
+/* 申请资质 */
+.apply{background: #ffffff;padding:0.6rem 0;}
+.apply h2{font-size: 0.32rem;color: #2ea261;text-align: center;margin-bottom: 0.5rem;font-weight: bold;}
+.apply h2:before{text-align: center;content: "";display: inline-block;width: 0.35rem;height: 0.35rem;border:0.02rem solid #ffdf06;background: #2ea261 url(../images/apply_03.png) center center no-repeat;background-size: 100%; vertical-align: middle;margin-right: 0.1rem;margin-bottom: 0.05rem;}
+.apply ul{overflow: hidden;display: flex;justify-content: space-between;}
+.apply ul li{margin-right: 2%;width:32%;padding:0.25rem 0.2rem 0.4rem 0.1rem;border: 0.02rem solid #2da462;}
+.apply ul li:last-child{margin-right: 0;}
+.apply ul li h6{font-size: 0.18rem;color:#2ea261;margin-bottom: 0.2rem;}
+.apply ul li p{font-size: 0.16rem;color:#585858;line-height: 1.5;}
+/* 申请流程 */
+.flow{background: #fcfcfc;padding:0.6rem 0 0.5rem;}
+.flow h2{font-size: 0.32rem;color: #2ea261;text-align: center;margin-bottom: 1rem;font-weight: bold;}
+.flow h2:before{text-align: center;content: "";display: inline-block;width: 0.35rem;height: 0.35rem;border:0.02rem solid #ffdf06;background: #2ea261 url(../images/apply_03.png) center center no-repeat;background-size: 100%;vertical-align: middle;margin-right: 0.1rem;margin-bottom: 0.05rem;}
+.flow ul{border-top: 0.01rem dashed #ccc;}
+.flow ul li{float: left;width: 16.6%;text-align: center;position: relative;padding-top: 0.5rem;}
+.flow ul li:nth-of-type(1)::before{content: "1";width: 0.4rem;height: 0.4rem;display: block;border: 0.02rem solid #dcdcdc;border-radius: 50%;text-align: center;line-height: 0.4rem;font-size: 0.2rem;color: #009140;position: absolute;left:50%;top: -0.2rem;transform: translateX(-50%);background: #fff;z-index: 2;}
+.flow ul li:nth-of-type(2)::before{content: "2";width: 0.4rem;height: 0.4rem;display: block;border: 0.02rem solid #dcdcdc;border-radius: 50%;text-align: center;line-height: 0.4rem;font-size: 0.2rem;color: #009140;position: absolute;left:50%;top: -0.2rem;transform: translateX(-50%);background: #fff;z-index: 2;}
+.flow ul li:nth-of-type(3)::before{content: "3";width: 0.4rem;height: 0.4rem;display: block;border: 0.02rem solid #dcdcdc;border-radius: 50%;text-align: center;line-height: 0.4rem;font-size: 0.2rem;color: #009140;position: absolute;left:50%;top: -0.2rem;transform: translateX(-50%);background: #fff;z-index: 2;}
+.flow ul li:nth-of-type(4)::before{content: "4";width: 0.4rem;height: 0.4rem;display: block;border: 0.02rem solid #dcdcdc;border-radius: 50%;text-align: center;line-height: 0.4rem;font-size: 0.2rem;color: #009140;position: absolute;left:50%;top: -0.2rem;transform: translateX(-50%);background: #fff;z-index: 2;}
+.flow ul li:nth-of-type(5)::before{content: "5";width: 0.4rem;height: 0.4rem;display: block;border: 0.02rem solid #dcdcdc;border-radius: 50%;text-align: center;line-height: 0.4rem;font-size: 0.2rem;color: #009140;position: absolute;left:50%;top: -0.2rem;transform: translateX(-50%);background: #fff;z-index: 2;}
+.flow ul li:nth-of-type(6)::before{content: "6";width: 0.4rem;height: 0.4rem;display: block;border: 0.02rem solid #dcdcdc;border-radius: 50%;text-align: center;line-height: 0.4rem;font-size: 0.2rem;color: #009140;position: absolute;left:50%;top: -0.2rem;transform: translateX(-50%);background: #fff;z-index: 2;}
+.flow ul li h5{font-size: 0.18rem;color: #009140;font-weight: bold;margin-bottom: 0.2rem;}
+.flow ul li p{font-size: 0.16rem;color:#666;line-height: 2;}
+/* 合作伙伴 */
+.Partner{padding:0.6rem 0;}
+.Partner h2{font-size: 0.32rem;color: #2ea261;text-align: center;margin-bottom: 0.6rem;font-weight: bold;}
+.Partner h2::before{text-align: center;content: "";display: inline-block;width: 0.35rem;height: 0.35rem;border:0.02rem solid #ffdf06;background: #2ea261 url(../images/apply_03.png) center center no-repeat;background-size: 100%;vertical-align: middle;margin-right: 0.1rem;margin-bottom: 0.05rem;}
+.Partner .img{width: 100%;}
+.Partner .img img{width: 100%;}
+@media(max-width: 767px){
+	html{font-size: 350%;}
+	.container{
+		width: 100%;
+		padding: 0 0.3rem;
+		margin: 0 auto;
+		box-sizing: border-box;
+	}
+	.pc{
+		display: none;
+	}
+	.mobile{
+		display: block;
+    }
+    .mt70{margin-top: 1rem;}
+    .header{background: none;}
+    .banner{width: 100%;}
+    .banner img{width: 100%;}
+    /* 加盟优势 */
+    .join_adv{padding: 0.6rem 0;}
+    .join_adv ul li{width: 20%;}
+    .join_adv ul{padding: 0;}
+    .join_adv ul li .img img{width: 1.1rem;height: 0.95rem;}
+    .join_adv ul li p{font-size: 0.18rem;padding: 0 0.1rem;width: 100%;margin-top: 0.3rem;}
+    /* 可控的经营成本 */
+    .cost ul{display: block;}
+    .cost ul li{width:100%;}
+    .cost ul li img{width: 100%;height: 0.9rem;}
+    /* 可靠的平台 */
+    .platform ul{display: block;padding: 0 0.3rem;}
+    .platform ul li{float: left;width: 45%;margin-right: 10%;margin-top: 0.6rem;}
+    .platform ul li:nth-child(2),.platform ul li:nth-child(4){margin-right: 0;}
+    .platform ul li h4{font-size: 0.3rem;}
+    .platform ul li p{font-size: 0.22rem;}
+    .platform h2{margin-bottom: 0;}
+    /* 申请资质 */
+    .apply ul{display: block;padding: 0 0.5rem;}
+    .apply ul li{width: 100%;height: 2.4rem;padding: 0.3rem 0.5rem 0;margin-bottom: 0.6rem;}
+    .apply ul li h6{font-size: 0.3rem;}
+    .apply ul li p{font-size: 0.22rem;line-height: 2;}
+    .apply{padding-bottom: 0;}
+    /* 申请流程 */
+    .flow ul{border: none;}
+    .flow ul li{width: 33.3%;border-top: 0.01rem dashed #ccc;}
+    .flow ul li:nth-of-type(4){margin-top: 0.6rem;}
+    .flow ul li:nth-of-type(5){margin-top: 0.6rem;}
+    .flow ul li:nth-of-type(6){margin-top: 0.6rem;}
+    .flow ul li h5{font-size: 0.3rem;}
+    .flow ul li p{font-size: 0.22rem;}
+    /* 合作伙伴 */
+    .Partner{width: 100%;}
+    .Partner img{width: 10%;}
+}

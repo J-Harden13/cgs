@@ -1,0 +1,63 @@
+.mt70{margin-top: 0;}
+.header{background: rgba(255, 255, 255, .5);}
+.banner{width: 100%;}
+.banner img{width: 100%;}
+/* 菜单导航 */
+.menu_nav ul{overflow: hidden;}
+.menu_nav ul li{float: left;width: 25%;}
+.menu_nav ul li a{background: #dcdcdc;padding: 0.2rem 1rem;font-size: 0.2rem;font-weight: bold;color:#565656;display: block;margin-right: 0.1rem;}
+.menu_nav ul li:last-child a{margin-right: 0;}
+/* 加盟优势 */
+.join_adv{padding: 0.35rem 0 0.6rem;}
+.join_adv h2{font-size: 0.32rem;color: #2ea261;text-align: center;margin-bottom: 0.2rem;font-weight: bold;}
+.join_adv h2:before{text-align: center;content: "";display: inline-block;width: 0.35rem;height: 0.35rem;border:0.02rem solid #ffdf06;background: #2ea261 url(../images/join_adv_03.png) center center no-repeat;background-size: 100%;vertical-align: middle;margin-right: 0.1rem;margin-bottom: 0.05rem;}
+.join_adv ul{overflow: hidden;display: flex;width: 100%;flex-wrap: wrap;}
+.join_adv ul li{width:19%;margin-right:1.25%;background:#e5e5e5;text-align: center;padding: 0.4rem 0.15rem;}
+.join_adv ul li:last-child{margin-right: 0;}
+.join_adv h5{margin-top: 0.2rem;font-size: 0.2rem;color: #000;font-weight: bold;}
+.join_adv p{margin-top: 0.4rem;text-align: left;font-size: 0.16rem;color: #5a5a5a;}
+.join_adv ul li .img{position: relative;}
+.join_adv ul li .img img{width: 0.75rem;height: 0.66rem;}
+.join_adv ul li .img img:last-child{position: absolute;left: 50%;top:0;transform: translateX(-50%);display: none;}
+.join_adv ul li:hover{background: #2ea261;color: #fff;}
+.join_adv ul li:hover h5{color: #fff;}
+.join_adv ul li:hover p{color: #fff;}
+.join_adv ul li:hover .img img:last-child{display: block;}
+.join_adv ul li:hover .img img:first-child{opacity: 0;}
+/* 盈利前景 */
+.profit{padding: 0.55rem 0 0.6rem;background: #f6f9fe;}
+.profit h2{font-size: 0.32rem;color: #2ea261;text-align: center;margin-bottom: 0.35rem;font-weight: bold;}
+.profit h2:before{text-align: center;content: "";display: inline-block;width: 0.35rem;height: 0.35rem;border:0.02rem solid #ffdf06;background: #2ea261 url(../images/profit_03.png) center center no-repeat;background-size: 100%;vertical-align: middle;margin-right: 0.1rem;margin-bottom: 0.05rem;}
+.profit ul{overflow: hidden;}
+.profit ul li{float: left;width: 50%;}
+.profit ul li:last-child{text-align: right;}
+@media(max-width: 767px){
+	html{font-size: 350%;}
+	.container{
+		width: 100%;
+		padding: 0 0.3rem;
+		margin: 0 auto;
+		box-sizing: border-box;
+	}
+	.pc{
+		display: none;
+	}
+	.mobile{
+		display: block;
+    }
+    .mt70{margin-top: 1rem;}
+    .header{background: none;}
+    .banner{width: 100%;}
+    .banner img{width: 100%;}
+    /* 加盟优势 */
+    .join_adv ul li{width: 32%;margin-right: 2%;margin-bottom: 0.6rem;}
+    .join_adv ul li:nth-child(3){margin-right: 0;}
+    .join_adv ul li:nth-child(4){margin-bottom: 0;}
+    .join_adv ul li:nth-child(5){margin-bottom: 0;margin-right: 0;}
+    .join_adv p{margin-top: 0.3rem;font-size: 0.2rem;}
+    .join_adv h5{font-size: 0.3rem}
+    /* 盈利前景 */
+    .profit ul li{width: 100%;margin-bottom: 0.6rem;}
+    .profit ul li img{width: 100%;}
+    .profit ul li:last-child{margin-bottom: 0;}
+}

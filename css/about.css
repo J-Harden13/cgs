@@ -1,0 +1,50 @@
+.mt70{margin-top: 0;}
+.header{background: rgba(255, 255, 255, .5);}
+.banner{width: 100%;}
+.banner img{width: 100%;}
+/* 菜单导航 */
+.menu_nav{background: #f8fff7;}
+.menu_nav ul{overflow: hidden;}
+.menu_nav ul li{float: left;width: 16.6%;}
+.menu_nav ul li a{font-size: 0.18rem;color:#666;display: block;padding:0.25rem;text-align: center;}
+.menu_nav ul .active{border-bottom: 0.05rem solid #009140;}
+/* 企业简介 */
+.profile{padding: 0.6rem 0;}
+.profile h2{font-size: 0.36rem;color: #333;margin-bottom: 0.3rem;text-align: center;}
+.profile .container>p{font-size: 0.2rem;color: #333;text-align: center;}
+.profile ul{overflow: hidden;margin-top: 1rem;}
+.profile ul li{float: left;width: 33.3%;}
+.profile ul li .img{width: 1.9rem;height: 1.9rem;text-align: center;border-radius: 50%;line-height: 1.7rem;margin: 0 auto;}
+.profile ul li .img img{width: 1rem;height: 0.73rem;}
+.profile ul li:nth-child(1) div{background: #03bd55;border: 0.1rem solid #a8eaa9;}
+.profile ul li:nth-child(2) div{background: #d7ca38;border: 0.1rem solid #e4ea9b;}
+.profile ul li:nth-child(3) div{background: #eb8c46;border: 0.1rem solid #f4cf9f;}
+.profile ul li h5{font-size: 0.2rem;color: #666;text-align: center;font-weight: bold;margin: 0.45rem 0 0.2rem;}
+.profile ul li p{font-size: 0.16rem;color: #666;padding: 0 0.3rem;}
+/* 手机端 */
+@media(max-width: 767px){
+	html{font-size: 350%;}
+	.container{
+		width: 100%;
+		padding: 0 0.3rem;
+		margin: 0 auto;
+		box-sizing: border-box;
+	}
+	.pc{
+		display: none;
+	}
+	.mobile{
+		display: block;
+    }
+    /* 企业简介 */
+		.mt70{margin-top: 1rem;}
+		.header{background: none;}
+		.banner{width: 100%;}
+		.banner img{width: 100%;}
+		/* 企业简介 */
+		.profile ul li{float: none;width: 100%;margin: 0 auto;margin-bottom: 0.6rem;}
+		.profile ul{margin-top: 0.4rem;}
+		.profile ul li h5{margin: 0.2rem 0;font-size: 0.3rem;font-weight: unset;}
+		.profile ul li p{line-height: 2;font-size:0.22rem;}
+		.profile ul li:last-child{margin-bottom: 0;}
+}

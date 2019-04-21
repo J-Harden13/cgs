@@ -1,0 +1,82 @@
+.mt70{margin-top: 0;}
+.header{background: rgba(255, 255, 255, 0.5)}
+.banner{width: 100%;}
+.banner img{width: 100%;}
+/* 汽车共享 */
+.car_share{padding: 0.4rem;margin-bottom: 0.5rem;}
+.car_share h2{font-size: 0.32rem;color: #2ea261;text-align: center;margin-bottom: 0.5rem;font-weight: bold;}
+.car_share h2:before{text-align: center;content: "";display: inline-block;width: 0.35rem;height: 0.35rem;border:0.02rem solid #ffdf06;background: #2ea261 url(../images/car_share_01.png) center center no-repeat;background-size:100%;vertical-align: middle;margin-right: 0.1rem;margin-bottom: 0.05rem;}
+.car_share ul li{float: left;width: 50%;height: 2.7rem;}
+.car_share_left{background: #fef9cf;border: 0.01rem solid #e9d423;border-right:none;position: relative;}
+.car_share_right{border: 0.01rem solid #e9d423;border-left: none;padding: 0.7rem 0.2rem 0 0.17rem;}
+.car_share_left img{position: absolute;left: 50%;top: -8%;transform: translateX(-50%);width: 4.52rem;height: 3.15rem;}
+.car_share_right h5{font-size: 0.16rem;color: #666;margin-bottom: 0.3rem;}
+.car_share_right p{font-size: 0.2rem;color: #cc8888;line-height: 3;font-weight: bold;}
+/* 共享优势 */
+.share_adv{padding-top:0.6rem;background:#f6f9fe;}
+.share_adv h2{font-size: 0.32rem;color: #2ea261;text-align: center;margin-bottom: 0.5rem;font-weight: bold;}
+.share_adv h2:before{text-align: center;content: "";display: inline-block;width: 0.35rem;height: 0.35rem;border:0.02rem solid #ffdf06;background: #2ea261 url(../images/share_adv_01.png) center center no-repeat;background-size: 100%; vertical-align: middle;margin-right: 0.1rem;margin-bottom: 0.05rem;}
+.share_adv ul{overflow: hidden;display: flex;justify-content: space-around;flex-wrap: wrap;align-items: stretch;}
+.share_adv ul li{position: relative;background: #fff;margin-bottom: 0.6rem;margin-right: 9.5%;} 
+.share_adv ul li:nth-child(3){margin-right: 0;}
+.share_adv ul li:nth-child(6){margin-right: 0;}
+.share_adv ul li .under{width: 2.86rem;height: 2.12rem;}
+.share_adv ul li .on{position: absolute;left: 0;top: 15%;width: 100%;text-align: center;z-index: 3;}
+.share_adv ul li .on p{font-size: 0.18rem;color: #fff;padding-right: 1em;margin-top: 0.2rem;}
+.share_adv ul li>p{padding:0.3rem 0.2rem;font-size: 0.16rem;color: #666;width: 2.86rem;}
+.share_adv .ceng{background: rgba(0, 0, 0, .5);position: absolute;left: 0;top:0;width: 100%;height: 2.12rem;z-index: 2;}
+/* 立即下载 */
+.download{padding:0.6rem 0;}
+.download h2{font-size: 0.32rem;color: #2ea261;text-align: center;margin-bottom: 0.6rem;font-weight: bold;}
+.download h2::before{text-align: center;content: "";display: inline-block;width: 0.35rem;height: 0.35rem;border:0.02rem solid #ffdf06;background: #2ea261 url(../images/download_15.png) center center no-repeat;background-size: 100%;vertical-align: middle;margin-right: 0.1rem;margin-bottom: 0.05rem;}
+.download ul{overflow: hidden;}
+.download ul li{float: left;width: 33.3%;}
+.download ul li .wrap{width: 2.4rem;height: 2.4rem;border:0.01rem solid #ccc;border-radius: 10%;margin: 0 auto;}
+.download ul li .wrap p{margin-top: 0.3rem;text-align: center;}
+.download ul li .wrap div{text-align: center;margin-top: 0.5rem;}
+.download ul li .img01 img{width: 0.75rem;height: 0.8rem;}
+.download ul li .img02 img{width: 0.64rem;height: 0.8rem;}
+.download ul li .img03 img{width: 1.32rem;height: 1.32rem;}
+.download ul li:hover .wrap{border:0.01rem solid #2da462;}
+@media(max-width: 767px){
+	html{font-size: 350%;}
+	.container{
+		width: 100%;
+		padding: 0 0.3rem;
+		margin: 0 auto;
+		box-sizing: border-box;
+	}
+	.pc{
+		display: none;
+	}
+	.mobile{
+		display: block;
+    }
+    .mt70{margin-top: 1rem;}
+    .header{background: #fff;}
+    .banner .img{width:100%;}
+    .banner .img img{width:100%;}
+    /* 汽车共享 */
+    .car_share{padding: 0.4rem 0;}
+    .car_share h2{margin-bottom: 1rem;}
+    .car_share ul li{float: none;width: 100%;}
+    .car_share_left{border: none;}
+    .car_share_right{border:none;padding: 0.7rem 0.1rem 0.3rem 0.05rem;}
+    .car_share ul{border: 0.02rem solid #e9d423;}
+    .car_share_right h5{font-size: 0.2rem;margin-bottom: 0.1rem;}
+    .car_share_right p{font-size: 0.28rem;color: #e8a45a;font-weight: unset;line-height: 2;}
+    /* 共享优势 */
+    .share_adv ul li{width: 2.86re;margin-right: 0;}
+    /* .share_adv ul li .under{width: 2.86rem;height: 2.12rem;} */
+    .share_adv ul li .on p{font-size: 0.3rem;}
+    .share_adv ul li>p{font-size: 0.24rem;}
+    .share_adv ul li .on img{width:0.5rem;height: 0.5rem;left: -20%;}
+     /* 立即下载 */
+    .download ul li .img01 img{width: 0.75rem;height: 0.8rem;}
+    .download ul li .img02 img{width: 0.64rem;height: 0.8rem;}
+    .download ul li .img03 img{width: 1.3rem;height: 1.32rem;}
+    .download ul li .wrap{width: 1.92rem;height: 1.92rem;}
+    .download ul li .wrap div{margin-top: 0.3rem;text-align: center;}
+    .download ul li:nth-child(3) .wrap div{margin:0;line-height: 1.92rem;}
+    .download ul li .wrap p{font-size: 0.22rem;text-align: center;margin-top: 0.2rem;}
+}

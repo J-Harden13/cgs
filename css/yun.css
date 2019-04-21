@@ -1,0 +1,92 @@
+.mt70{margin-top: 0;}
+.header{background: rgba(255, 255, 255, 0.5);}
+.banner{width: 100%;position: relative;}
+.banner img{width:100%;}
+#J_dotLine{position: absolute;left: 0;top: 0;}
+/* canvas{width: 100%;height: 100%;background: url(../images/banner_yun.jpg) center center no-repeat;background-size: 100% 100%;} */
+/* 关于我们 */
+.abt_we{padding: 0.6rem;}
+.abt_we h2{font-size: 0.36rem;color: #333;text-align: center;margin-bottom: 0.5rem;}
+.abt_we ul li{float: left;height: 2.7rem;}
+.abt_we_left{width: 35%;background: #cdf1ff;position: relative;}
+.abt_we_right{width:65%;padding: 0.7rem 0.5rem 0 0.4rem;}
+.abt_we_left .img{position: absolute;left: 50%;top: -20%;transform: translateX(-50%);}
+.abt_we_right p{font-size: 0.18rem;color: #666;line-height: 2;text-indent: 2em;}
+/* 风控体系 */
+.risk{background: #f8fdff;padding: 0.6rem 0;}
+.risk h2{font-size: 0.36rem;color: #333;text-align: center;margin-bottom: 0.8rem;}
+.risk ul li{float: left;width: 50%;}
+.risk ul{overflow: hidden;}
+.risk_left{padding: 0.9rem 0.7rem 1.2rem 0.8rem;border-right: 0.01rem dashed #14a2d9;}
+.risk_right .img img{width: 5.41rem;height: 4.24rem;}
+.risk_right{padding: 0.2rem 0 0 0.5rem;}
+.risk_left h5{font-size: 0.2rem;color: #14a2d9;margin-bottom: 0.2rem;}
+.risk_left p{font-size: 0.16rem;color: #666;line-height: 1.5;}
+.risk_left h5:nth-of-type(2){margin-top: 0.9rem;}
+/* 钱包体系 */
+.wallet{padding: 0.6rem 0;}
+.wallet h2{font-size: 0.36rem;color: #333;text-align: center;margin-bottom: 0.8rem;}
+.wallet ul li{float: left;width: 50%;}
+.wallet ul{overflow: hidden;}
+.wallet_left{padding: 0.9rem 0.7rem 1.2rem 0.8rem;border-right: 0.01rem dashed #14a2d9;}
+.wallet_right img{width: 6rem;height: 4.2rem;}
+.wallet_left h5{font-size: 0.2rem;color: #17387b;margin-bottom: 0.2rem;}
+.wallet_left p{font-size: 0.16rem;color: #666;line-height: 1.5;}
+.wallet_left h5:nth-of-type(2){margin-top: 0.9rem;}
+/* 我们的优势 */
+.adv_yun{background: #fbfeff;padding:0.6rem;}
+.adv_yun h2{font-size: 0.36rem;color: #333;text-align: center;margin-bottom: 0.6rem;}
+.adv_yun ul{overflow: hidden;}
+.adv_yun ul li{float: left;width: 33.3%;padding:0 0.3rem;text-align: center;}
+.adv_yun ul li h5{font-size: 0.18rem;color:#14a2d9;margin-top: 0.25rem;}
+.adv_yun ul li p{font-size: 0.16rem;color: #666;margin-top: 0.2rem;}
+
+@media(max-width: 767px){
+	html{font-size: 350%;}
+	.container{
+		width: 100%;
+		padding: 0 0.3rem;
+		margin: 0 auto;
+		box-sizing: border-box;
+	}
+	.pc{
+		display: none;
+	}
+	.mobile{
+		display: block;
+    }
+    .banner{width: 100%;}
+    .banner img{width: 100%;}
+    .mt70{margin-top: 1rem;}
+    .header{background: none;}
+    /* 关于我们 */
+    .abt_we{padding: 0.6rem 0;}
+    .abt_we_left{background: none;width: 30%;}
+    .abt_we_left .img img{width: 1.87rem;height: 1.37rem;}
+    .abt_we_left .img{left: 0;top: 0.5rem;transform: none;}
+		.abt_we_right p{font-size: 0.2rem;}
+		.abt_we_right{padding: 0 0rem 0  0.4rem;width: 70%;}
+		/* 风控体系 */
+		.risk ul li{float: none;width: 100%;}
+		.risk_left{border-right: none;padding: 0;}
+		.risk_left h5:nth-of-type(2){margin-top: 0.3rem;}
+		.risk_left h5{font-size: 0.3rem;}
+		.risk_left p{font-size: 0.22rem;}
+		.risk_righ{width: 100%;}
+		.risk_right img{width: 5.41rem;height: 4.24rem;padding-top: 0.3rem;margin-left: 0.5rem;}
+		/* 钱包体系 */
+		.wallet ul li{float: none;width: 100%;}
+		.wallet_left{padding: 0.4rem 0 0;border-right: none;}
+		.wallet h2{margin-bottom: 0.4rem;}
+		.wallet h5:nth-of-type(2){margin-top: 0.35rem;}
+		.wallet h5{font-size: 0.3rem;color:#e58080;}
+		.wallet p{font-size: 0.22rem;}
+		.wallet_right img{margin-left: 0.5rem;}
+		/* 我们的优势 */
+		.adv_yun ul li{float: none;width: 100%;padding:0 0.3rem;text-align: center;margin-bottom: 0.6rem;}
+		.adv_yun ul li h5{font-size: 0.3rem;margin-top: 0.3rem;}
+		.adv_yun ul li p{font-size: 0.22rem;margin-top: 0.4rem;}
+		.adv_yun{padding-bottom: 0.3rem;}
+		.adv_yun ul li:last-child{margin-bottom: 0;}
+		.adv_yun ul li .img img{width: 0.7rem;height: 0.61rem;}
+}

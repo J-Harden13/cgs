@@ -1,0 +1,61 @@
+.header{background: rgba(255, 255, 255, .5);}
+.banner{width: 100%;}
+.banner img{width: 100%;}
+/* 菜单导航 */
+.menu_nav{background: #f8fff7;}
+.menu_nav ul{overflow: hidden;}
+.menu_nav ul li{float: left;width: 16.6%;}
+.menu_nav ul li a{font-size: 0.18rem;color:#666;display: block;padding:0.25rem;text-align: center;}
+.menu_nav ul .active{border-bottom: 0.05rem solid #009140;}
+/* 发展历程 */
+.course{padding: 0.5rem 0;position: relative;}
+.course h2{font-size: 0.36rem;color: #333;margin-bottom: 0.3rem;text-align: center;}
+.course>p{font-size: 0.2rem;color: #333;text-align: center;}
+.course .time{margin-top: 0.7rem;width:100%;background: url(../images/course_03.png) center top no-repeat;background-size:100%;padding-top: 0.3rem;}
+.course .time p{font-size: 0.16rem;color: #666;line-height: 2;margin-bottom: 0.2rem;}
+.course .time .top p{display: inline-block;width: 3rem;text-align: center;}
+.course .time .bottom p{display:inline-block;width: 3rem;text-align: center;vertical-align: top;margin-top: 0.2rem;}
+.course .time .top p{vertical-align: bottom;}
+.course .img{text-align: center;}
+.course .time .top p:nth-of-type(1){margin-left: 0.5rem;}
+.course .time .top p:nth-of-type(2){margin-left:0.1rem}
+.course .time .top p:nth-of-type(3){margin-left: 0.1rem;}
+.course .time .top p:nth-of-type(4){margin-left: 0.1rem;}
+.course .time .bottom p:nth-of-type(1){margin-left: 2rem;}
+.course .time .bottom p:nth-of-type(2){margin-left: 0.1rem;}
+.course .time .bottom p:nth-of-type(3){margin-left: 0.4rem;}
+.course .time .bottom p:nth-of-type(4){margin-left: 0rem;}
+@media(max-width: 767px){
+	html{font-size: 350%;}
+	.container{
+		width: 100%;
+		padding: 0 0.3rem;
+		margin: 0 auto;
+		box-sizing: border-box;
+	}
+	.pc{
+		display: none;
+	}
+	.mobile{
+		display: block;
+    }
+    .header{background: none;}
+    .banner{width: 100%;}
+    .banner img{width: 100%;}
+    /* 发展历程 */
+    .course{margin-bottom: 0.5rem;}
+    .time_mob{padding: 0.5rem 0.3rem;position: relative;width: 100%;height: 12.4rem;}
+    .time_mob img{width: 3.96rem;height: 12.4rem;position: absolute;left: 50%;top: 0.5rem;transform: translateX(-50%);}
+    .word ul li{font-size: 0.22rem;}
+    .word ul{width: 100%;}
+    .word ul li:nth-child(odd){margin-left: 55%;}
+    .word ul li:nth-child(even){margin-right: 55%;text-align: right;}
+    .word ul li:nth-child(1){margin-top: 1.2rem;}
+    .word ul li:nth-child(2){margin-top: 1rem;}
+    .word ul li:nth-child(3){margin-top: 0.5rem;}
+    .word ul li:nth-child(4){margin-top: 0.6rem;}
+    .word ul li:nth-child(5){margin-top: 0.8rem;}
+    .word ul li:nth-child(6){margin-top: 1rem;}
+    .word ul li:nth-child(7){margin-top: 0.3rem;}
+    .word ul li:nth-child(8){margin-top: 0.8rem;}
+}

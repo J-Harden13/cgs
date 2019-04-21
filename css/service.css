@@ -1,0 +1,102 @@
+.mt70{margin-top: 0;}
+.header{background: rgba(255, 255, 255, 0.1)}
+/* 轮播 */
+.banner{width: 100%;}
+.banner img{width: 100%;}
+/* 一键服务 */
+.service{padding: 0.4rem;margin-bottom: 0.4rem;}
+.service h2{font-size: 0.32rem;color: #2ea261;text-align: center;margin-bottom: 0.6rem;font-weight: bold;}
+.service h2:before{text-align: center;content: "";display: inline-block;width: 0.35rem;height: 0.35rem;border:0.02rem solid #ffdf06;background: #2ea261 url(../images/service_03.png) center center no-repeat;background-size: 100%;vertical-align: middle;margin-right: 0.1rem;margin-bottom: 0.05rem;}
+.service ul li{float: left;width: 50%;height: 2.7rem;}
+.service_left{background: #ffeeee;border: 0.01rem solid #f9c8c8;border-right:none;position: relative;}
+.service_right{border: 0.01rem solid #f9c8c8;border-left: none;padding: 0.6rem 0.3rem 0;}
+.service_left img{position: absolute;left: 50%;top: -13%;transform: translateX(-50%);width: 3.65rem;height: 3.4rem;}
+.service_right h5{font-size: 0.16rem;color: #666;margin-bottom: 0.3rem;}
+.service_right p{font-size: 0.2rem;color: #cc8888;line-height: 3;font-weight: bold;}
+/* 线上养车 */
+.online{background: #f6f9fe;padding:0.6rem 0;}
+.online h2{font-size: 0.32rem;color: #2ea261;text-align: center;margin-bottom: 0.5rem;font-weight: bold;}
+.online h2::before{text-align: center;content: "";display: inline-block;width: 0.35rem;height: 0.35rem;border:0.02rem solid #ffdf06;background: #2ea261 url(../images/online_03.png) center center no-repeat;background-size: 100%;vertical-align: middle;margin-right: 0.1rem;margin-bottom: 0.05rem;}
+.online ul{overflow: hidden;}
+.online ul li{float: left;width: 25%;margin-top: 0.3rem;}
+.online ul li div span{width: 0.28rem;height: 0.17rem;background: url(../images/process_19.png) center center no-repeat;background-size:100%;position: absolute;left: -150%;}
+.online ul li div{width: 0.8rem;height: 0.8rem;background: #2da462;margin: 0 auto;}
+.online ul li div{display: flex;justify-content: center;align-items: center;position: relative;}
+.online ul li div img{width: 0.5rem;height: 0.5rem;}
+.online ul li p{text-align: center;margin-top: 0.1rem;font-size: 0.16rem;color:#585858;}
+/* 选择我们 */
+.choice{padding:0.6rem 0 0.3rem;background: #fcfffd;}
+.choice h2{font-size: 0.32rem;color: #2ea261;text-align: center;font-weight: bold;}
+.choice h2:before{text-align: center;content: "";display: inline-block;width: 0.35rem;height: 0.35rem;border:0.02rem solid #ffdf06;background: #2ea261 url(../images/choice_03.png) center center no-repeat;background-size: 100%;vertical-align: middle;margin-right: 0.1rem;margin-bottom: 0.05rem;}
+.choice ul li{float: left;width: 25%;}
+.choice ul{overflow: hidden;margin-top: 0.5rem;}
+.choice ul li div{width:1.9rem;height: 1.9rem;border-radius: 50%;margin: 0 auto;display: flex;justify-content: center;align-items: center;}
+.choice ul li div span{width: 1.5rem;height: 1.5rem;border-radius: 50%;display: flex;justify-content: center;align-items: center;font-size: 0.3rem;color: #fff;}
+.choice ul li:nth-of-type(1) div span{background: #ffa05c;font-size: 0.3rem;}
+.choice ul li:nth-of-type(2) div span{background: #5488be;font-size: 0.3rem;}
+.choice ul li:nth-of-type(3) div span{background: #47baa9;font-size: 0.3rem;}
+.choice ul li:nth-of-type(4) div span{background: #9cabcc;font-size: 0.3rem;}
+.choice ul li:nth-of-type(1) div{background: #fde5d0;}
+.choice ul li:nth-of-type(2) div{background: #cddeeb;}
+.choice ul li:nth-of-type(3) div{background: #caece6;}
+.choice ul li:nth-of-type(4) div{background: #e1e8ef;}
+.choice ul li p{text-align: center;font-size: 0.16rem;color: #383838;width:2.2rem;margin: 0.15rem auto 0;}
+/* 立即下载 */
+.download{padding:0.6rem 0;}
+.download h2{font-size: 0.32rem;color: #2ea261;text-align: center;margin-bottom: 0.6rem;font-weight: bold;}
+.download h2::before{text-align: center;content: "";display: inline-block;width: 0.35rem;height: 0.35rem;border:0.02rem solid #ffdf06;background: #2ea261 url(../images/download_15.png) center center no-repeat;background-size: 100%;vertical-align: middle;margin-right: 0.1rem;margin-bottom: 0.05rem;}
+.download ul{overflow: hidden;}
+.download ul li{float: left;width: 33.3%;}
+.download ul li .wrap{width: 2.4rem;height: 2.4rem;border:0.01rem solid #ccc;border-radius: 10%;margin: 0 auto;}
+.download ul li .wrap p{margin-top: 0.3rem;text-align: center;}
+.download ul li .wrap div{text-align: center;margin-top: 0.5rem;}
+.download ul li .img01 img{width: 0.75rem;height: 0.8rem;}
+.download ul li .img02 img{width: 0.64rem;height: 0.8rem;}
+.download ul li .img03 img{width: 1.32rem;height: 1.32rem;}
+.download ul li:hover .wrap{border:0.01rem solid #2da462;}
+
+/* 手机端 */
+@media(max-width: 767px){
+	html{font-size: 350%;}
+	.container{
+		width: 100%;
+		padding: 0 0.3rem;
+		margin: 0 auto;
+		box-sizing: border-box;
+	}
+	.pc{
+		display: none;
+	}
+	.mobile{
+		display: block;
+    }
+    .mt70{margin-top: 1rem;}
+    .header{background: #fff;}
+    .banner .img{width:100%;}
+    .banner .img img{width:100%;}
+    /* 一键服务 */
+    .service{padding: 0.4rem 0;}
+    .service .container ul{border: 0.02rem solid #f9c8c8;}
+    .service h2{margin-bottom: 0.9rem;}
+    .service ul li{float: none;width: 100%;}
+    .service ul li .service_left .img img{width: 3.65rem;height: 3.4rem;}
+    .service_left{border: none;}
+    .service_right{border: none;padding: 0.55rem 0.6rem 0.9rem 0.9rem;}
+    .service_right h5{font-size: 0.24rem;}
+    .service_right p{font-size: 0.28rem;line-height: 2;font-weight: unset;}
+    /* 线上养车 */
+    .online ul li div span{left: -80%}
+    .online ul li p{font-size: 0.3rem;margin-top: 0.3rem;}
+    /* 选择我们 */
+    .choice ul li{width: 50%;margin-bottom: 0.5rem;}
+    .choice ul li:nth-child(3),.choice ul li:nth-child(4){margin-bottom: 0;}
+    .choice ul li p{font-size: 0.22rem;margin-top: 0.3rem;}
+    /* 立即下载 */
+    .download ul li .img01 img{width: 0.75rem;height: 0.8rem;}
+    .download ul li .img02 img{width: 0.64rem;height: 0.8rem;}
+    .download ul li .img03 img{width: 1.3rem;height: 1.32rem;}
+    .download ul li .wrap{width: 1.92rem;height: 1.92rem;}
+    .download ul li .wrap div{margin-top: 0.3rem;text-align: center;}
+    .download ul li:nth-child(3) .wrap div{margin:0;line-height: 1.92rem;}
+    .download ul li .wrap p{font-size: 0.22rem;text-align: center;margin-top: 0.2rem;}
+}
