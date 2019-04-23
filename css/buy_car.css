@@ -32,7 +32,7 @@
 .loan h2 span{margin: 0 0.2rem;font-size: 0.4rem;color: #ffe011;}
 .loan h2::before{text-align: center;content: "";display: inline-block;width: 0.35rem;height: 0.35rem;border:0.02rem solid #ffdf06;background: #2ea261 url(../images/loan_03.png) center center no-repeat;background-size:100%;vertical-align: middle;margin-right: 0.1rem;margin-bottom: 0.05rem;}
 .loan ul{margin-top: 1rem;display: flex;justify-content: space-between;align-items: stretch;}
-.loan ul li{flex:1;padding: 0.2rem 0 0 0.25rem;border:0.01rem solid #eee;border-top: 0.1rem solid #eee;background: #fff;}
+.loan ul li{width: 33.3%;padding: 0.2rem 0 0 0.25rem;border:0.01rem solid #eee;border-top: 0.1rem solid #eee;background: #fff;}
 .loan ul li p{font-size: 0.16rem;color:#666;}
 .loan ul li .title h5{text-align: center;font-size: 0.18rem;color: #2ea261;font-weight: bold;}
 .loan ul li .title h5::before{text-align: center;content: "";width: 0.18rem;height: 0.2rem;display: inline-block;background: url(../images/loan_11.png) center center no-repeat;background-size: 100%; vertical-align: middle;margin-right: 0.1rem;margin-bottom: 0.03rem;}
@@ -136,8 +136,30 @@
     .advantage ul li h5{margin-top: 0.4rem;font-size: 0.24rem;font-weight: unset;}
     /* 传统车贷 */
     .loan .container{padding: 0;}
-    .loan ul{display: block;}
-    .loan ul li{width: 100%;}
+    .loan ul li .content h5{font-size: 0.2rem;}
+    .loan ul li .content p{font-size: 0.18rem;}
+    .loan ul li:hover{transform: none;border:0.02rem solid #2da462;border-top: 0.1rem solid #2da462;transition: none;}
+    .loan ul li .title p{margin: 0;font-size: 0.18rem;}
+    .loan ul li .title h5{font-size: 0.26rem;}
+    
+    html, body {
+      position: relative;
+      height: 100%;
+    }
+    body {
+      margin: 0;
+      padding: 0;
+    }
+    .swiper-container {
+      width: 100%;
+    }
+    .swiper-slide {
+      background: #fff;
+    }
+   .BMap_cpyCtrl {
+      display: none;
+    }
+
     /* 购车流程 */
     .process ul li div span{left: -80%;}
     .process ul li p{font-size: 0.22rem;}

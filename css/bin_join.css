@@ -12,12 +12,15 @@
 .register .container{height:5.04rem;background: url(../images/bin_join_03.png) left top no-repeat;background-size:100% 100%;text-align: center;}
 .name{text-align: center;margin-top: 0.6rem;}
 .tel{text-align: center;margin-top: 0.3rem;margin-right: 0.15rem;}
-.area{text-align: center;margin-top: 0.3rem;margin-left: 0.1rem;position: relative;}
+.area{text-align: center;margin-top: 0.3rem;margin-left: 0rem;position: relative;}
 .register a{margin-top: 0.4rem;padding: 0.2rem 1.2rem;display: inline-block;background: green;color: #fff;}
 .wrap{font-size: 0.16rem;color: #646464;}
 .wrap div i{color: red;}
-.wrap div input{width: 4.2rem;height: 0.5rem;margin-left: 0.1rem;}
-.area .top{width: 0;height: 0;border-right:0.07rem solid transparent;border-left:0.07rem solid transparent;border-top:0.1rem solid #000;position: absolute;left:68%;top:40%;display: block;}
+.pick-area{width: 4.2rem !important;height: 0.5rem;vertical-align: middle;}
+.pick-show{border: none !important;margin-top: 0.05rem;}
+.pick-show span{margin-top: 0.1rem;}
+.wrap div input{width: 4.2rem;height: 0.5rem;}
+/* .area .top{width: 0;height: 0;border-right:0.07rem solid transparent;border-left:0.07rem solid transparent;border-top:0.1rem solid #000;position: absolute;left:68%;top:40%;display: block;} */
 @media(max-width: 767px){
 	html{font-size: 350%;}
 	.container{
@@ -40,5 +43,6 @@
     .register{margin: 0;}
     .wrap{font-size: 0.3rem;}
     .area .top{left: 82%;}
-    .wrap div input{border: none;}
+		.wrap div input{border: none;}
+		.pick-show{margin-top: 0;}
 }

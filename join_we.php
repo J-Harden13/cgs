@@ -12,8 +12,8 @@
 	<script src="js/jquery-2.1.4.min.js"></script>
     <script src="js/bootstrap.min.js"></script>
     <script src="js/service.js"></script>
-    <script src="js/join_we.js"></script>
     <script src="js/common.js"></script>
+    <script src="js/join_we.js"></script>
 </head>
 <body>
 <?php include 'header.php';?>

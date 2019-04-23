@@ -113,19 +113,19 @@ h1,h2,h3,h4,h5,h6,p{margin: 0;}
 	.footer .container .content{padding-bottom: 0;}
 	.footer .content .footer_nav{width: 100%;}
 	.footer .content .footer_nav li{margin-bottom: 0.4rem;}
-	.footer .show{overflow: hidden;border-bottom: 0.01rem solid #ccc;padding: 0 0.3rem 0.15rem;margin-top: 0.4rem;}
-	.footer .show span{float: left;font-size: 0.3rem;color:#fff;}
-	.footer .show img{width: 0.22rem;height: 0.13rem;float: right;margin-top: 0.2rem;}
+	.footer .f_show{overflow: hidden;border-bottom: 0.01rem solid #ccc;padding: 0 0.3rem 0.15rem;margin-top: 0.4rem;}
+	.footer .f_show span{float: left;font-size: 0.3rem;color:#fff;}
+	.footer .f_show img{width: 0.22rem;height: 0.13rem;float: right;margin-top: 0.2rem;}
 	.footer .code div:first-child img{width: 0.98rem;height: 0.98rem;margin-left: 0.2rem;}
 	.footer .code div:last-child img{width: 0.98rem;height: 0.98rem;}
 	.footer .code{overflow: hidden;padding: 0 1rem;}
-	.footer .code div{font-size: 0.2rem;color: #fff;}
 	.footer .code div:first-child{float: left;}
 	.footer .code div:last-child{float: right;}
-	.footer .code div p{margin-top:0.3rem;}
+	.footer .code div p{margin-top:0.3rem;font-size: 0.2rem;color: #fff;}
 	.footer .link{margin: 0.5rem 0;}
 	.footer .link p{text-align: center;font-size: 0.2rem;color: #fff;}
-	.footer .hide{font-size: 0.22rem;color: #ccc;padding: 0.3rem 0.3rem 0;}
-	.footer .hide p{margin-bottom: 0.1rem;}
-	.footer .footer_nav .hide ul li{margin-bottom: 0.2rem;font-size: 0.22rem;color: #ccc;}
+	.footer .f_hide{font-size: 0.22rem;color: #ccc;padding: 0.3rem 0.3rem 0;display: none;}
+	.footer .f_hide p{margin-bottom: 0.1rem;}
+	.footer .f_hide a{font-size: 0.22rem;color:#ccc;}
+	.footer .footer_nav .f_hide ul li{margin-bottom: 0.2rem;font-size: 0.22rem;color: #ccc;}
 }

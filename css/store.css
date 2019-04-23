@@ -12,7 +12,7 @@
 .store h2{font-size: 0.36rem;color: #333;margin-bottom: 0.3rem;text-align: center;}
 .store .container>p{font-size: 0.2rem;color: #333;text-align: center;}
 .store ul{float: left;width: 3rem;}
-.store #map{float: right;width: 8.5rem;height: 5.54rem;}
+
 .store .container>div{margin-top: 0.6rem;overflow: hidden;}
 .store ul li{padding: 0.2rem 0rem 0.3rem 0.2rem;border: 0.01rem solid #ccc;}
 .store ul li:nth-child(1) h4::before{content: "1";width: 0.3rem;height: 0.3rem;display:inline-block;background: #009140;border-radius: 50%;text-align: center;line-height: 0.3rem;margin-right: 0.1rem;}
@@ -24,8 +24,8 @@
 .store ul li:nth-child(3) p::before{content: "";width: 0.11rem;height: 0.17rem;display: inline-block;background: url(../images/store_06.png) left top no-repeat;background-size:100%;vertical-align: middle;margin-right: 0.1rem;} 
 .store ul li p{margin-top: 0.25rem;line-height: 1.5;font-size: 0.16rem;color: #333;}
 /* 地图 */
-/* body{margin: 0; padding: 0; font:0.12rem/1 "Microsoft Yahei", "微软雅黑", sans-serif;}
-p, span {font-family: 'Microsoft Yahei'!important;} */
+.store #map{float: right;width: 8.5rem;height: 5.54rem;}
+.anchorBL img{display: none;}
 @media(max-width: 767px){
 	html{font-size: 350%;}
 	.container{
@@ -45,7 +45,7 @@ p, span {font-family: 'Microsoft Yahei'!important;} */
     .banner img{width: 100%;}
     /* 门店查询 */
     .store ul{float: none;width:100%;}
-		.store #map{float: none;width:100%;}
-		.store ul li p{font-size: 0.22rem;}
-		.store ul li h4{font-size: 0.3rem;}
+	.store #map{float: none;width:100%;}
+	.store ul li p{font-size: 0.22rem;}
+	.store ul li h4{font-size: 0.3rem;}
 }

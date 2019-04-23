@@ -7,12 +7,14 @@
     <title>Document</title>
     <link rel="stylesheet" href="css/bootstrap.min.css">
 	<link rel="stylesheet" href="css/common.css">
-	<link rel="stylesheet" href="css/bin_join.css">
+    <link rel="stylesheet" href="css/bin_join.css">
+    <link rel="stylesheet" href="css/pick-pcc.css"/>
 	<script src="js/rem.js"></script>
 	<script src="js/jquery-2.1.4.min.js"></script>
     <script src="js/bootstrap.min.js"></script>
     <script src="js/service.js"></script>
     <script src="js/common.js"></script>
+    <script src="js/pick-pcc.js"></script>
 </head>
 <body>
     <?php include 'header.php';?>
@@ -37,12 +39,21 @@
             <div class="wrap">
             <div class="name"><span>姓名：</span><input type="text"><i>*</i></div>
             <div class="tel"><span>手机号：</span><input type="text"><i>*</i></div>
-            <div class="area"><span>地区：</span><input type="text"><span class="top"></span><i>*</i></div>
+            <!-- <div class="area"><span>地区：</span><input type="text"><span class="top"></span><i>*</i></div> -->
+            <div class="area">
+                <span>地区：</span>
+                <div class="pick-area pick-area1" name="山东省/临沂市/兰陵县"></div><i>*</i>
+            </div>
+
+
             <a href="">提交</a>
             </div>
         </div>
     </div>
     
     <?php include 'footer.php';?>
+    <script type="text/javascript">
+        $(".pick-area1").pickArea();
+    </script>
 </body>
 </html>

@@ -7,12 +7,15 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <meta name="renderer" content="webkit">
 	<link rel="stylesheet" href="css/bootstrap.min.css">
-	<link rel="stylesheet" href="css/common.css">
+    <link rel="stylesheet" href="css/common.css">
+    <link rel="stylesheet" href="css/swiper.min.css">
 	<link rel="stylesheet" href="css/buy_car.css">
 	<script src="js/rem.js"></script>
 	<script src="js/jquery-2.1.4.min.js"></script>
     <script src="js/bootstrap.min.js"></script>
     <script src="js/common.js"></script>
+    <script src="js/swiper.min.js"></script>
+    <script src="js/buy_car.js"></script>
 </head>
 <body>
     <?php include 'header.php';?>
@@ -105,63 +108,59 @@
     <div class="loan mobile">
         <div class="container">
             <h2>以租代购<span>VS</span>传统车贷</h2>
-            <ul>
-                <li>
-                    <div class="title"><h5>银行</h5><p>门槛指数<span>★★★★</span></p></div>
-                    <div class="content">
-                        <h5>所有权</h5>
-                        <p>车辆产权在客户名下，但必须要有领牌指标</p>
-                        <h5>首付款</h5>
-                        <p>首付比例至少是裸车价的30%以上</p>
-                        <h5>审批手续</h5>
-                        <p>必须提供身份证、户口本、婚姻证 明、居住证明，且对征信和收入有要求</p>
-                        <h5>审批时间</h5>
-                        <p>7-15天（不算面签及放款时间）</p>
-                        <h5>增值服务</h5>
-                        <p>从购车到上牌等所有手续要自己自费自办</p>
-                    </div>
-                </li>
-                <li>
-                    <div class="title"><h5>以租代购</h5><p>门槛指数<span>★★</span></p></div>
-                    <div class="content">
-                        <h5>所有权</h5>
-                        <p>租期满后，车辆的所有权会转移到客户名下</p>
-                        <h5>首付款</h5>
-                        <p>最低0首付，0杂费， 低月供</p>
-                        <h5>审批手续</h5>
-                        <p>身份证、驾驶证、银行流水、收入证 明、住址证明，不看征信和负债</p>
-                        <h5>审批时间</h5>
-                        <p>最快当天可提车</p>
-                        <h5>增值服务</h5>
-                        <p>免费提供缴税、投保、上牌等一站式服务</p>
-                    </div>
-                </li>
-                <li>
-                    <div class="title"><h5>主机金融</h5><p>门槛指数<span>★★★★★</span></p></div>
-                    <div class="content">
-                        <h5>所有权</h5>
-                        <p>车辆产权在客户名下但必须有领牌指标</p>
-                        <h5>首付款</h5>
-                        <p>首付至少是裸车价的30%以上</p>
-                        <h5>审批手续</h5>
-                        <p>身份证、户口本、已（未）婚证明、职业和收入证明、购车意向证明、 购车首付证明、担保资料、个人征信、 不动产抵押、还款记录、税收证明、居住证明等</p>
-                        <h5>审批时间</h5>
-                        <p>3-15天（不包含面签及放款时间）</p>
-                        <h5>增值服务</h5>
-                        <p>上牌、购置税、保险等手续需要自费自办</p>
-                    </div>
-                </li>
-            </ul>
+            <div class="swiper-container">
+                <ul class="swiper-wrapper">
+                    <li class="swiper-slide">
+                        <div class="title"><h5>银行</h5><p>门槛指数<span>★★★★</span></p></div>
+                        <div class="content">
+                            <h5>所有权</h5>
+                            <p>车辆产权在客户名下，但必须要有领牌指标</p>
+                            <h5>首付款</h5>
+                            <p>首付比例至少是裸车价的30%以上</p>
+                            <h5>审批手续</h5>
+                            <p>必须提供身份证、户口本、婚姻证 明、居住证明，且对征信和收入有要求</p>
+                            <h5>审批时间</h5>
+                            <p>7-15天（不算面签及放款时间）</p>
+                            <h5>增值服务</h5>
+                            <p>从购车到上牌等所有手续要自己自费自办</p>
+                        </div>
+                    </li>
+                    <li class="swiper-slide">
+                        <div class="title"><h5>以租代购</h5><p>门槛指数<span>★★</span></p></div>
+                        <div class="content">
+                            <h5>所有权</h5>
+                            <p>租期满后，车辆的所有权会转移到客户名下</p>
+                            <h5>首付款</h5>
+                            <p>最低0首付，0杂费， 低月供</p>
+                            <h5>审批手续</h5>
+                            <p>身份证、驾驶证、银行流水、收入证 明、住址证明，不看征信和负债</p>
+                            <h5>审批时间</h5>
+                            <p>最快当天可提车</p>
+                            <h5>增值服务</h5>
+                            <p>免费提供缴税、投保、上牌等一站式服务</p>
+                        </div>
+                    </li>
+                    <li class="swiper-slide">
+                        <div class="title"><h5>主机金融</h5><p>门槛指数<span>★★★★★</span></p></div>
+                        <div class="content">
+                            <h5>所有权</h5>
+                            <p>车辆产权在客户名下但必须有领牌指标</p>
+                            <h5>首付款</h5>
+                            <p>首付至少是裸车价的30%以上</p>
+                            <h5>审批手续</h5>
+                            <p>身份证、户口本、已（未）婚证明、职业和收入证明、购车意向证明、 购车首付证明、担保资料、个人征信、 不动产抵押、还款记录、税收证明、居住证明等</p>
+                            <h5>审批时间</h5>
+                            <p>3-15天（不包含面签及放款时间）</p>
+                            <h5>增值服务</h5>
+                            <p>上牌、购置税、保险等手续需要自费自办</p>
+                        </div>
+                    </li>
+                </ul>
+            </div>
         </div>
     </div>
 
-    <div class="swiper-container">
-        <div class="swiper-wrapper">
-            <div class="swiper-slide">Slide 1</div>
-            <div class="swiper-slide">Slide 2</div>
-            <div class="swiper-slide">Slide 3</div>
-        </div>
-    </div>
+    
     <!-- 流程 -->
     <div class="process">
         <div class="container">
@@ -222,5 +221,12 @@
         </div>
     </div>
     <?php include 'footer.php';?>
+
+    <script>
+    var swiper = new Swiper('.swiper-container', {
+      slidesPerView: 1,
+      spaceBetween: 0
+    });
+  </script>
 </body>
 </html>
